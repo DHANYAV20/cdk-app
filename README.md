@@ -56,3 +56,50 @@ command.
  * `cdk docs`        open CDK documentation
 
 Enjoy!
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+$ mkdir cdk-app
+
+$ cd cdk-app
+
+$ cdk init --language python
+
+$ python -m venv .venv
+
+$ source .venv/Scripts/activate
+
+$ .venv/Scripts/activate.bat
+
+$ pip install aws_cdk.core
+
+$ python -m pip install --upgrade pip
+
+$ pip install aws-cdk.aws-s3
+
+$ pip freeze >> requirements.txt
+
+$ cdk ls
+
+$ pip freeze >> requirements.txt
+
+$ git config --global user.name "xyz"
+
+$ git config --global user.email "xyz@gmail.com"
+
+$ git init
+
+$ git add .
+
+$ git commit -m "first commit"
+
+$ git branch -M main
+
+$ git remote add origin https://github.com/DHANYAV20/cdk-app.git
+
+$ git push -u origin main
+
+Enjoy !
+9 - Feb - 2022

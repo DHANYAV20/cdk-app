@@ -1,4 +1,5 @@
 import aws_cdk.aws_s3 as _s3
+import aws_cdk.aws_iam as _iam
 from aws_cdk.core import Stack
 from constructs import Construct
 import aws_cdk.core as core
@@ -27,6 +28,9 @@ class CdkAppStack(Stack):
 
         print(mybucket.bucket_name)
 
+        _iam.Group(self,
+                    "gid")
+
         output_1 = core.CfnOutput(
             self,
             "myBucketOutput1",
@@ -34,5 +38,6 @@ class CdkAppStack(Stack):
             description=f"My first CDK Bucket",
             export_name="myBucketOutput1"
         )
+
 
 
